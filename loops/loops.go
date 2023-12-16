@@ -20,8 +20,8 @@ func main() {
 	users = append(users, User{"john", "th", "js@gmail", 22})
 	users = append(users, User{"ohn", "ther", "js@gmail", 21})
 
-	for i, k := range users {
-		log.Println(i, k)
+	for _, k := range users {
+		log.Println(k.FirstName, k.LastName, k.age, k.email)
 	}
 
 }
