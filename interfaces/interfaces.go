@@ -7,13 +7,11 @@ type Animal interface {
 	NumOfLegs() int
 }
 type Dog struct {
-	Name  string
-	Breed string
+	Name, Breed string
 }
 
 type Cat struct {
-	Name   string
-	colour string
+	Name, colour string
 }
 
 func main() {
